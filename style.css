@@ -1,0 +1,292 @@
+
+* {
+padding: 0;
+margin: 0;
+
+}
+
+
+/*Para fondo de toda la pagina*/
+
+.contenedor{
+
+background-image: url(./imagenes/backgroundimage.png);
+color: white;
+
+
+}
+
+/*Para titulo principal de la página*/
+
+.encabezado {
+
+color: white;
+text-align: center;
+font-family: 'Allura', cursive;
+font-family: 'Source Code Pro', monospace;
+font-family: 'Square Peg', cursive;
+font-family: 'Waterfall', cursive;
+font-size: 75px;
+
+}
+
+/*Primer menú que figura en la pagina*/
+
+.menu-general{
+
+text-align: right;
+list-style-type: none;
+
+}
+
+/*Segundo menú que llevaría a sectores de indumentaria, por el momento no agrego más enlaces solo queda el formato de una fila*/
+
+.menu__secunario {
+
+    padding: 30px;
+
+}
+
+
+.menugeneral__contacto{
+
+    text-align: right;
+    list-style-type: none;
+    
+    }
+
+/*diseño del enlace del menú*/
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 5px 5px 5px 5px;
+    color: white;
+    font-family: poiret -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    
+}
+
+li {
+
+    display: inline;
+    border: 1px solid rgb(131, 11, 155);
+    font-family: poiret -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+ul {
+
+text-align: center;
+list-style: none;
+font-weight: bold;
+font-size: 20px;
+font-family: poiret -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+
+
+}
+
+
+.contenedor{
+
+padding: 20px;
+margin: 20px;
+text-align: center;
+
+}
+
+.imagenes {
+
+    width: 400px;
+    height: auto;
+    display: inline;
+    border-radius: 30px;
+
+   
+}
+
+/*Diseño de las imagenes de facebook, mastercard, etc, las cuales quedan al final de la pagina*/
+
+.redespagos {
+
+height: 32px;
+width: 32px;
+align-items: center;
+padding-top: 40px;
+justify-content: space-evenly;
+align-items: center;
+font-family: poiret -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+
+}
+
+/*diseño de la tabla de talles*/
+
+.medidas {
+
+margin: 32px;
+text-align: center;
+font-family: poiret -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+/*diseño de la tabla de talles*/
+.tablas {
+
+    margin: auto;
+    font-family: poiret -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+/*diseño de la tabla de talles*/
+table {
+border-collapse: collapse;
+font-size: 32px;
+font-family: poiret -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+
+/*diseño de la tabla de talles*/
+
+table, h2 {
+
+    font-size: 32px;
+    font-family: poiret -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+/*diseño de la tabla de talles*/
+th, td {
+
+    border: solid 5px blueviolet;
+    padding: 0;
+    font-family: poiret -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+
+.fuente__final {
+
+    padding: 8px;
+    font-family: poiret -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+
+}
+
+
+.registro{
+
+padding-bottom: 30px;
+margin: 20px;
+
+}
+
+.registro__titulo{
+
+    padding: 20px;
+    margin: 20px;
+
+}
+
+/*diseño de formulario*/
+
+.formulario {
+
+    width:300px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+    font-size: 15px;
+
+}
+
+/*diseño de formulario*/
+
+form label {
+
+    width:72px;
+	font-weight:bold;
+	display:inline-block;
+
+
+}
+
+.datos-empresa{
+
+display: inline-block;
+padding: 20px;
+margin: 20px;
+position: relative;
+text-transform: uppercase;
+
+}
+
+.datos__particular{
+
+    font-size: 18px;
+
+}
+
+
+/*Ubicacion de google maps*/
+.mapa{
+
+margin-right: 700px;
+width:400;
+height: 300px; 
+
+}
+
+/*Estilos de la galeria*/
+
+.galeria-contenedor{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    object-fit: cover;
+    grid-auto-rows: 300px;
+    gap: 10px;
+}
+
+.galeria-item{
+
+    width: 100%;
+    object-fit: contain;
+}
+
+.galeria-item img {
+
+    height: 100%;
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px){
+
+    .galeria-contenedor{
+
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .datos-empresa{
+
+        grid-template-columns: auto;
+
+    }
+
+}
+
+
+@media only screen and (max-width: 320px){
+
+    .galeria-contenedor{
+
+        grid-template-columns: 1fr;
+    }
+
+    .datos-empresa{
+
+        grid-template-columns: 1fr;
+        
+    }
+
+
+
+}
+
+
+
